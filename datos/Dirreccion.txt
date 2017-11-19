@@ -1,0 +1,100 @@
+,Costa Rica,Cartago,Desamparados,30000
+,Costa Rica,Cartago,Escazu,30001
+,Costa Rica,Cartago,Curridabat,30002
+,Costa Rica,Cartago,La Union,30003
+,Costa Rica,Cartago,Barva,30004
+,Costa Rica,San Jose,Desamparados,30005
+,Costa Rica,San Jose,Escazu,30006
+,Costa Rica,San Jose,Curridabat,30007
+,Costa Rica,San Jose,La Union,30008
+,Costa Rica,San Jose,Barva,30009
+,Costa Rica,Heredia,Desamparados,30010
+,Costa Rica,Heredia,Escazu,30011
+,Costa Rica,Heredia,Curridabat,30012
+,Costa Rica,Heredia,La Union,30013
+,Costa Rica,Heredia,Barva,30014
+,Costa Rica,Limon,Desamparados,30015
+,Costa Rica,Limon,Escazu,30016
+,Costa Rica,Limon,Curridabat,30017
+,Costa Rica,Limon,La Union,30018
+,Costa Rica,Limon,Barva,30019
+,USA,Cartago,Desamparados,30020
+,USA,Cartago,Escazu,30021
+,USA,Cartago,Curridabat,30022
+,USA,Cartago,La Union,30023
+,USA,Cartago,Barva,30024
+,USA,San Jose,Desamparados,30025
+,USA,San Jose,Escazu,30026
+,USA,San Jose,Curridabat,30027
+,USA,San Jose,La Union,30028
+,USA,San Jose,Barva,30029
+,USA,Heredia,Desamparados,30030
+,USA,Heredia,Escazu,30031
+,USA,Heredia,Curridabat,30032
+,USA,Heredia,La Union,30033
+,USA,Heredia,Barva,30034
+,USA,Limon,Desamparados,30035
+,USA,Limon,Escazu,30036
+,USA,Limon,Curridabat,30037
+,USA,Limon,La Union,30038
+,USA,Limon,Barva,30039
+,Germany,Cartago,Desamparados,30040
+,Germany,Cartago,Escazu,30041
+,Germany,Cartago,Curridabat,30042
+,Germany,Cartago,La Union,30043
+,Germany,Cartago,Barva,30044
+,Germany,San Jose,Desamparados,30045
+,Germany,San Jose,Escazu,30046
+,Germany,San Jose,Curridabat,30047
+,Germany,San Jose,La Union,30048
+,Germany,San Jose,Barva,30049
+,Germany,Heredia,Desamparados,30050
+,Germany,Heredia,Escazu,30051
+,Germany,Heredia,Curridabat,30052
+,Germany,Heredia,La Union,30053
+,Germany,Heredia,Barva,30054
+,Germany,Limon,Desamparados,30055
+,Germany,Limon,Escazu,30056
+,Germany,Limon,Curridabat,30057
+,Germany,Limon,La Union,30058
+,Germany,Limon,Barva,30059
+,Italy,Cartago,Desamparados,30060
+,Italy,Cartago,Escazu,30061
+,Italy,Cartago,Curridabat,30062
+,Italy,Cartago,La Union,30063
+,Italy,Cartago,Barva,30064
+,Italy,San Jose,Desamparados,30065
+,Italy,San Jose,Escazu,30066
+,Italy,San Jose,Curridabat,30067
+,Italy,San Jose,La Union,30068
+,Italy,San Jose,Barva,30069
+,Italy,Heredia,Desamparados,30070
+,Italy,Heredia,Escazu,30071
+,Italy,Heredia,Curridabat,30072
+,Italy,Heredia,La Union,30073
+,Italy,Heredia,Barva,30074
+,Italy,Limon,Desamparados,30075
+,Italy,Limon,Escazu,30076
+,Italy,Limon,Curridabat,30077
+,Italy,Limon,La Union,30078
+,Italy,Limon,Barva,30079
+,India,Cartago,Desamparados,30080
+,India,Cartago,Escazu,30081
+,India,Cartago,Curridabat,30082
+,India,Cartago,La Union,30083
+,India,Cartago,Barva,30084
+,India,San Jose,Desamparados,30085
+,India,San Jose,Escazu,30086
+,India,San Jose,Curridabat,30087
+,India,San Jose,La Union,30088
+,India,San Jose,Barva,30089
+,India,Heredia,Desamparados,30090
+,India,Heredia,Escazu,30091
+,India,Heredia,Curridabat,30092
+,India,Heredia,La Union,30093
+,India,Heredia,Barva,30094
+,India,Limon,Desamparados,30095
+,India,Limon,Escazu,30096
+,India,Limon,Curridabat,30097
+,India,Limon,La Union,30098
+,India,Limon,Barva,30099
