@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ROOT>
+    <Clients>
+        <Client Name="La Nacion" IdClient="1"> 
+            <Address> San Jose</Address>
+        </Client>
+        <Client Name="Diario Extra" IdClient="2"> 
+            <Address> Cartago </Address>
+        </Client>
+         <Client Name="ASOC Noticas CR" IdClient="3"> 
+            <Address> Heredia </Address>
+        </Client> 
+        <Client Name="Grupo Actual" IdClient="4"> 
+            <Address> Puntarenas </Address>
+        </Client> 
+        <Client Name="La Casa de Noticias" IdClient="5"> 
+            <Address> Limon </Address>
+        </Client>
+         <Client Name="Dias de Costa Rica" IdClient="6"> 
+            <Address> Alajuela</Address>
+        </Client> 
+        <Client Name="Pasatiempos Nacional" IdClient="7"> 
+            <Address> Guanacaste </Address>
+        </Client> 
+        <Client Name="Unidos Siempre" IdClient="8"> 
+            <Address> La Union </Address>
+        </Client>
+         <Client Name="Grupo Adelante" IdClient="9"> 
+            <Address> Grecia </Address>
+        </Client>
+         <Client Name="Simpr" IdClient="10"> 
+            <Address> San Carlos </Address>
+        </Client>
+    </Clients>
+</ROOT>
