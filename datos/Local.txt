@@ -1,4 +1,3 @@
-,Local0,0
 ,Local1,1
 ,Local2,2
 ,Local3,3
@@ -99,12 +98,3 @@
 ,Local98,98
 ,Local99,99
 ,Local100,100
-,Local101,101
-,Local102,102
-,Local103,103
-,Local104,104
-,Local105,105
-,Local106,106
-,Local107,107
-,Local108,108
-,Local109,109
