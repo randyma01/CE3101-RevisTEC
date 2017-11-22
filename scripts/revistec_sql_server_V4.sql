@@ -141,7 +141,7 @@ CREATE TABLE Route_Address(
 );
 
 -- Table of Subscription of User for digital Magazine --
-CREATE TABLE Subscipstions(
+CREATE TABLE Subscriptions(
 	IdUser INT NOT NULL, 
 	IdMagazine INT NOT NULL, 
 	FOREIGN KEY (IdUser) REFERENCES Users(IdUser),
