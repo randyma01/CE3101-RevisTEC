@@ -1,22 +1,22 @@
-/*
+Ôªø/*
 Proyect II: RevisTEC (SQL Server 2017)
 
-Bases de Datos, ¡rea Ac·demica de IngenerÌa en Computadores
+Bases de Datos, √Årea Ac√°demica de Ingener√≠a en Computadores
 
 Semestre II, 2017
 
 Members:
 	Ricardo Chang Villalobos - 2014040801
 	Gustavo Fallas Carrera - 2014035394
-	Pablo GarcÌa Brenes - 2015083681
-	Randy MartÌnez SandÌ - 2014047395
+	Pablo Garc√≠a Brenes - 2015083681
+	Randy Mart√≠nez Sand√≠ - 2014047395
 
 Index:
 	1- Declaration of SPs, SFs and triggers.
     2- Executing the SPs and SFs.
 */
 
--- Creation of the database --
+-- Access of the database --
 USE revistec;
 GO
 
@@ -50,8 +50,8 @@ END
 GO
 
 -- =============================================
--- Author: All members
--- Create date:  -	-
+-- Author:		All members
+-- Create date: --
 -- Description:	Add new magazine
 -- =============================================
 CREATE PROCEDURE sp_addMagazine
@@ -76,9 +76,10 @@ RETURN
 END
 GO
 
+
 -- =============================================
--- Author: All members
--- Create date:  -	-
+-- Author:		All members
+-- Create date: --
 -- Description:	Add Address
 -- =============================================
 CREATE PROCEDURE sp_addAddress
@@ -104,9 +105,10 @@ RETURN
 END
 GO
 
+
 -- =============================================
--- Author: All members
--- Create date:  -	-
+-- Author:		All members
+-- Create date: --
 -- Description:	Add Local
 -- =============================================
 CREATE PROCEDURE sp_addLocal
@@ -139,33 +141,49 @@ END
 GO
 
 -- =============================================
--- Author: All members
--- Create date:  -	-
+-- Author:		All members
+-- Create date: --
 -- Description:	Add Client
 -- =============================================
 CREATE PROCEDURE sp_addClient
 (	
 	@name VARCHAR(256),
+	@address VARCHAR(256),
 	@idClient INT OUTPUT
 )
 AS
 BEGIN
-	DECLARE @idOutput table ( ID int );
+	DECLARE @XML AS XML, @hDoc AS INT, @SQL NVARCHAR (MAX), @idClientCurrent INT;
+    SELECT @XML = XMLData FROM Client;
+    EXEC sp_xml_preparedocument @hDoc OUTPUT, @XML;
+    SET @idClientCurrent = (SELECT COUNT(IdClient)
+						FROM OPENXML(@hDoc, 'ROOT/Clients/Client')
+						WITH 
+						(
+						IdClient [varchar](50) '@IdClient'
+						));
+    EXEC sp_xml_removedocument @hDoc;
 
-	INSERT INTO Client(Name)
-	OUTPUT Inserted.IdClient INTO @idOutput
-	VALUES(@name);
+	SET @idClient = @idClientCurrent + 1;
+	DECLARE @newClient XML = '<Client Name="' + @name + '" IdClient="' + CONVERT(varchar(256), @idClient) + '"> 
+						<Address>' + @address +'</Address>
+					</Client>';
 
-	SET @idClient = (SELECT ID FROM @idOutput);
+	UPDATE Client
+	SET XMLData.modify('insert sql:variable("@newClient") into (/ROOT/Clients)[1]')
+	WHERE Client.IdClient = 1;
+		
 RETURN
 END
 GO
 
+
 -- =============================================
--- Author:	All members
--- Create date:  -	-
+-- Author:		All members
+-- Create date: --
 -- Description:	Add Contract
 -- =============================================
+
 CREATE PROCEDURE sp_addContract
 (
 	@nameClient VARCHAR(256),
@@ -221,6 +239,71 @@ BEGIN CATCH
 END CATCH
 GO
 
+
+-- =============================================
+-- Author:		All members
+-- Create date: --
+-- Description:	Collect Order | Client
+-- =============================================
+CREATE PROCEDURE sp_collectOrderService(
+	@nameClient VARCHAR(256),
+	@nameMagazine VARCHAR(256),
+	@ssnEmployee INT,
+	@amountMagazine INT
+)
+AS
+BEGIN
+	DECLARE @idClient INT;
+	DECLARE @XML AS XML, @hDoc AS INT, @SQL NVARCHAR (MAX);
+	SELECT @XML = XMLData FROM Client
+	EXEC sp_xml_preparedocument @hDoc OUTPUT, @XML
+	SET @idClient = (SELECT IdClient
+					FROM OPENXML(@hDoc, 'ROOT/Clients/Client')
+					WITH (
+					IdClient [varchar](50) '@IdClient',
+					Name [varchar](100) '@Name'
+					)
+					WHERE Name = @nameClient
+					);
+	EXEC sp_xml_removedocument @hDoc
+
+	DECLARE @idMagazine INT;
+	SET @idMagazine = (SELECT IdMagazine
+					   FROM Magazine WHERE Magazine.Name = @nameMagazine);
+	DECLARE @idEmploye INT;
+	SET @idEmploye = (SELECT IdEmployee 
+					  FROM Employee WHERE Employee.SSN = @ssnEmployee);
+
+	INSERT INTO Order_Client(IdEmployee, IdMagazine, IdClient, AmountMagazine)
+	VALUES(@idEmploye, @idMagazine, @idClient, @amountMagazine);
+
+END
+GO
+
+
+-- =============================================
+-- Author:		All members
+-- Create date: --
+-- Description:	Add Register | Local
+-- =============================================
+CREATE PROCEDURE sp_addRegister(
+	@ssnEmployee INT,
+	@nameLocal VARCHAR(256),
+	@arriveDate DATETIME
+)
+AS
+BEGIN
+	DECLARE @idEmployee INT;
+	SET @idEmployee = (SELECT IdEmployee 
+						FROM Employee WHERE Employee.SSN = @ssnEmployee);
+
+	INSERT INTO Register(IdEmployee, IdLocal, ArriveDate)
+	VALUES(@idEmployee, (SELECT [dbo].[sf_getIdLocal](@nameLocal)), @arriveDate);	
+END
+GO
+
+
+
 -- =============================================
 -- Author: All members
 -- Create date:  -	-
@@ -236,10 +319,11 @@ AS
 	INNER JOIN Address ON Address.IdAddress = Local.IdAddress;
 GO
 
+
 -- =============================================
 -- Author:nAll members
 -- Create date:  -	-
--- Description:	Get Id Local
+-- Description:	Funtion Get Id Local / Return Id for Local
 -- =============================================  
 CREATE FUNCTION sf_getIdLocal
 (
@@ -250,11 +334,9 @@ WITH EXECUTE AS CALLER
 AS
 BEGIN
 	DECLARE @idLocal int;
-
 	SET @idLocal = (SELECT idLocal 
 					FROM Local L
 					WHERE L.Name = @name);
-	
 	RETURN (@idLocal);
 END
 GO 
@@ -273,6 +355,7 @@ GO
 				-- 1 Funcion  
 				-- Someterla a SEEP (Show Estimated Execution Plan)
 -- =============================================
+
 CREATE PROCEDURE sp_getBestEmployeeLocal
 (
 	@nameLocal VARCHAR(256)
@@ -304,9 +387,10 @@ FROM
 END
 GO
 
+
 -- =============================================
--- Author: All members
--- Create date:  -	-
+-- Author:		All members
+-- Create date: --
 -- Description:	Bill - Collect money in local
 -- =============================================
 CREATE PROCEDURE sp_collectInLocal
@@ -332,12 +416,13 @@ BEGIN
 	Print '----------------' + CHAR(13)
 	Print 'Payment date: ' + RTRIM(YEAR(GETUTCDATE()))+ '/'+RTRIM(MONTH(GETUTCDATE()) - 1)
 	Print 'Local: ' + RTRIM(@nameLocal)
-	Print 'Total Price: ?' + RTRIM(@amount)
+	Print 'Total Price: ‚Ç°' + RTRIM(@amount)
 END
 GO
 
+
 -- =============================================
--- Author: All members
+-- Author:		All members
 -- Create date: -	-
 -- Description:	Bill - Collect money  from contract/client
 -- =============================================
@@ -362,7 +447,7 @@ BEGIN
 					IdClient [varchar](50) '@IdClient',
 					Name [varchar](100) '@Name'
 					)
-					WHERE Name = 'La Nacion'
+					WHERE Name = @nameClient
 					);
 	EXEC sp_xml_removedocument @hDoc
 
@@ -372,18 +457,18 @@ BEGIN
 	Print 'Bill  RevisTEC'
 	Print 'Date: ' + RTRIM(CONVERT(Date, GETUTCDATE())) 
 	Print '----------------' + CHAR(13)
-	Print 'Client: ' + RTRIM('La Nacion')
-	Print 'Total Amount: ?' + RTRIM(@amount)
+	Print 'Client: ' + RTRIM(@nameClient)
+	Print 'Total Amount: ‚Ç°' + RTRIM(@amount)
 END
 GO
 
+
 -- =============================================
--- Author: All members
+-- Author:		All members
 -- Create date: -	-
 -- Description:	Bill - Collect money from All Local
-				--	Use Cursor Global | Local
+--				Use Cursor Global | Local
 -- =============================================
--- DeclaraciÛn del cursor 
 CREATE PROCEDURE sp_createCursorGlobal
 AS
 BEGIN
@@ -415,6 +500,7 @@ BEGIN
 	DEALLOCATE cursorBillLocal;
 END
 GO
+
 
 -- =============================================
 -- Author:		All members
@@ -460,6 +546,7 @@ AS
 		DELETE;
 GO
 
+
 ---------------------------------------------------------
 /* Query - Use AVG | SUBSTRING | LTRIM */
 SELECT  U.Email, AVG(M.Price) AS Price, LTRIM(CONCAT('       Email: ', SUBSTRING(U.Email, 9,4)))
@@ -487,6 +574,8 @@ SELECT * FROM (SELECT DISTINCT TOP 1 P.FirstName AS Name, P.LastName, (SELECT CO
 			ORDER BY Amount DESC
 			)AS Resutl2;
 ---------------------------------------------------------
+
+
 ----------End: Declaration of SPs, SFs and triggers.----------
 
 ----------Start:  Executing the SPs and SFs.----------

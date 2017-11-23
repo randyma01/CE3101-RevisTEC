@@ -1,9 +1,10 @@
 import random
 
+
 def generar_fechas_cumple():
     fechas = []
     for i in range(30000):
-        año = random.randint(1965, 1995)
+        año = random.randint(2002, 2017)
         mes = random.randint(1, 12)
         dia = random.randint(1, 25)
 
@@ -17,7 +18,7 @@ def generar_fechas_cumple():
         fechas.append(fecha)
     return fechas
 
-
+       
 def generar_nombres():
     nombres = []
     file = open("names.txt","r")
@@ -52,12 +53,32 @@ def Person():
         
     file.close()
 
+
+def cargar_nombres_magazine():
+    names= []
+    file = open("names_magazine.txt","r")
+    names = file.read().splitlines()
+    file.close()
+    return names
+
+
+def generar_magazine():
+    nombres = cargar_nombres_magazine()
+    fechas = generar_fechas_cumple()
+    file = open("Magazine.txt", "w")
+    for i in range(525):
+        text = "," + nombres[i] + "," + str(random.randint(1500, 3500)) + "," + str(fechas[random.randint(0, 29999)]) + "\n"
+
+        file.write(text)
+    file.close()
+        
+
 def susb():
-    file = open("subscipstions.txt", "w")
+    file = open("Subscriptions.txt", "w")
 
     for i in range(150):
         idUser = random.randint(1, 1999)
-        idMagazine = random.randint(1, 120)
+        idMagazine = random.randint(1, 525)
 
         text = str(idUser) +"," + str(idMagazine) +"\n"
 
@@ -84,7 +105,6 @@ def Route_Address():
 def Contract():
     file = open("contrat.txt", "w")
  
-
     idClient = 1
     while idClient <= 10:
         payment = random.randint(300000, 1000000)
@@ -99,18 +119,25 @@ def Contract():
 
 
 def CML():
-    file = open("cml.txt", "w")
-    
-    for i in range(350):
+    file = open("CML.txt", "w")
+    file1 = open("Order_Client.txt", "w")
+
+    for i in range(750):
+        idEmployee = random.randint(1, 2000)
         idClient = random.randint(1, 10)
-        idMagazine = random.randint(1, 120)
+        idMagazine = random.randint(1, 525)
         idLocal = random.randint(1, 100)
         deliveryRe = random.randint(1, 3)
         
         text = str(idClient) +"," + str(idMagazine) + ","+ str(idLocal) + "," + str(deliveryRe) + "\n"
 
-        file.write(text)
+        text_Order = str(idEmployee)+ "," + str(idMagazine)+ "," + str(idClient)+"," + str(random.randint(10, 120)) + "\n"
+
         
+        file.write(text)
+        file1.write(text_Order)
+
+    file1.close()    
     file.close()
 
 

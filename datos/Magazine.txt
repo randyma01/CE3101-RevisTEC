@@ -1,120 +1,525 @@
-,Pefil,1000,2017-11-14
-,Pefil2,1000,2017-11-14
-,Pefil3,1000,2017-11-14
-,Pefil4,1000,2017-11-14
-,RevistaDomincal,1000,2017-11-14
-,RevistaDomincal2,1000,2017-11-14
-,RevistaDomincal3,1000,2017-11-14
-,RevistaDomincal4,1000,2017-11-14
-,Vos,1000,2017-11-14
-,Vos2,1000,2017-11-14
-,Vos3,1000,2017-11-14
-,Vos4,1000,2017-11-14
-,Sabores,1000,2017-11-14
-,Sabores2,1000,2017-11-14
-,Sabores3,1000,2017-11-14
-,Sabores4,1000,2017-11-14
-,People,1000,2017-11-14
-,People2,1000,2017-11-14
-,People3,1000,2017-11-14
-,People4,1000,2017-11-14
-,Playboy,1000,2017-11-14
-,Playboy2,1000,2017-11-14
-,Playboy3,1000,2017-11-14
-,Playboy4,1000,2017-11-14
-,Esquire,1000,2017-11-14
-,Esquire2,1000,2017-11-14
-,Esquire3,1000,2017-11-14
-,Esquire4,1000,2017-11-14
-,Rolling Stone,1000,2017-11-14
-,Rolling Stone2,1000,2017-11-14
-,Rolling Stone3,1000,2017-11-14
-,Rolling Stone4,1000,2017-11-14
-,Life,1000,2017-11-14
-,Life2,1000,2017-11-14
-,Life3,1000,2017-11-14
-,Life4,1000,2017-11-14
-,National Geographic,1000,2017-11-14
-,National Geographic2,1000,2017-11-14
-,National Geographic3,1000,2017-11-14
-,National Geographic4,1000,2017-11-14
-,Vogue,1000,2017-11-14
-,Vogue2,1000,2017-11-14
-,Vogue3,1000,2017-11-14
-,Vogue4,1000,2017-11-14
-,ESPN,1000,2017-11-14
-,ESPN2,1000,2017-11-14
-,ESPN3,1000,2017-11-14
-,ESPN4,1000,2017-11-14
-,La Atalaya,1000,2017-11-14
-,La Atalaya2,1000,2017-11-14
-,La Atalaya3,1000,2017-11-14
-,La Atalaya4,1000,2017-11-14
-,Muy Interesante,1000,2017-11-14
-,Muy Interesante2,1000,2017-11-14
-,Muy Interesante3,1000,2017-11-14
-,Muy Interesante4,1000,2017-11-14
-,Time,1000,2017-11-14
-,Time2,1000,2017-11-14
-,Time3,1000,2017-11-14
-,Time4,1000,2017-11-14
-,Hola!,1000,2017-11-14
-,Hola!2,1000,2017-11-14
-,Hola!3,1000,2017-11-14
-,Hola!4,1000,2017-11-14
-,TunningCar,1000,2017-11-14
-,TunningCar2,1000,2017-11-14
-,TunningCar3,1000,2017-11-14
-,TunningCar4,1000,2017-11-14
-,Gente,1000,2017-11-14
-,Gente2,1000,2017-11-14
-,Gente3,1000,2017-11-14
-,Gente4,1000,2017-11-14
-,Seventeen,1000,2017-11-14
-,Seventeen2,1000,2017-11-14
-,Seventeen3,1000,2017-11-14
-,Seventeen4,1000,2017-11-14
-,Billboard,1000,2017-11-14
-,Billboard2,1000,2017-11-14
-,Billboard3,1000,2017-11-14
-,Billboard4,1000,2017-11-14
-,Forbes,1000,2017-11-14
-,Forbes2,1000,2017-11-14
-,Forbes3,1000,2017-11-14
-,Forbes4,1000,2017-11-14
-,Nature,1000,2017-11-14
-,Nature2,1000,2017-11-14
-,Nature3,1000,2017-11-14
-,Nature4,1000,2017-11-14
-,Science,1000,2017-11-14
-,Science2,1000,2017-11-14
-,Science3,1000,2017-11-14
-,Science4,1000,2017-11-14
-,Life,1000,2017-11-14
-,Life2,1000,2017-11-14
-,Life3,1000,2017-11-14
-,Life4,1000,2017-11-14
-,micasa,1000,2017-11-14
-,micasa2,1000,2017-11-14
-,micasa3,1000,2017-11-14
-,micasa4,1000,2017-11-14
-,Men'sHealth,1000,2017-11-14
-,Men'sHealth2,1000,2017-11-14
-,Men'sHealth3,1000,2017-11-14
-,Men'sHealth4,1000,2017-11-14
-,Automovil,1000,2017-11-14
-,Automovil2,1000,2017-11-14
-,Automovil3,1000,2017-11-14
-,Automovil4,1000,2017-11-14
-,Puro Motor,1000,2017-11-14
-,Puro Motor2,1000,2017-11-14
-,Puro Motor3,1000,2017-11-14
-,Puro Motor4,1000,2017-11-14
-,PCMagazine,1000,2017-11-14
-,PCMagazine2,1000,2017-11-14
-,PCMagazine3,1000,2017-11-14
-,PCMagazine4,1000,2017-11-14
-,Como funciona?,1000,2017-11-14
-,Como funciona?2,1000,2017-11-14
-,Como funciona?3,1000,2017-11-14
-,Como funciona?4,1000,2017-11-14
+,AAA Living,1862,2016-10-16
+,AARP Bulletin,2395,2013-01-24
+,AARP The Magazine,1880,2016-07-06
+,ACCRA Cost of Living Index (Reference),2245,2006-05-22
+,Air and Space Smithsonian,2150,2005-09-05
+,All You,2824,2010-01-12
+,Allure,3049,2002-03-03
+,American Artist,3233,2012-03-07
+,American Baby,3113,2007-06-17
+,American Girl (Kids),1922,2017-09-01
+,American Heritage,2962,2004-05-06
+,American History,3126,2007-02-15
+,American Hunter,3315,2002-06-14
+,American Rifleman,2745,2004-05-17
+,Américas (Spanish),2935,2015-06-16
+,AppleSeeds (Kids),2867,2004-07-19
+,Archaeology,1679,2014-04-17
+,Architectural Digest,2742,2015-11-07
+,Art of the West,2355,2014-08-11
+,Arthur Frommer’s Budget Travel,1883,2016-07-22
+,Artist’s Magazine,1744,2002-10-25
+,Astronomy,3479,2005-10-25
+,Atlantic Monthly,2477,2014-08-05
+,Audubon,2324,2016-12-03
+,Babybug (Kids’ Small Picture Book),2684,2015-09-17
+,Backpacker,3096,2013-02-06
+,Better Homes and Gardens,2676,2017-02-19
+,Betty Crocker Creative Recipes,3107,2009-03-14
+,Biblical Archaeology Review,2993,2017-08-20
+,Bicycling,1881,2006-05-13
+,Billboard,3171,2009-01-09
+,Birds & Blooms,1726,2008-03-01
+,Black Belt,2882,2010-11-24
+,Bloomberg Businessweek,3085,2008-04-08
+,BMX Plus (Teen),3093,2010-07-02
+,Bon Appetit,3307,2004-07-16
+,Boys’ Life (Kids),2780,2009-04-20
+,Boys’ Quest (Kids),2513,2008-05-02
+,Bridal Guide,3071,2002-05-21
+,Brides,2199,2009-11-15
+,Brigham Young University Studies,2164,2006-05-19
+,Business Week,2044,2010-12-11
+,BYU Magazine,1701,2006-07-25
+,Car and Driver,2959,2012-10-20
+,Christian Science Monitor,2944,2014-04-04
+,Christianity Today,3317,2009-11-05
+,Click (Kids),2773,2017-12-14
+,Climbing,1624,2007-07-05
+,Consumer Reports (Adult and Reference),2306,2017-05-21
+,Contenido (Spanish),3320,2009-05-06
+,Cook’s Illustrated,1521,2005-06-06
+,Cooking Light,2128,2015-11-12
+,Cosmopolitan,2072,2002-06-21
+,Country,2119,2002-07-03
+,Country Living,2359,2007-06-08
+,Cowboys and Indians,2445,2016-03-09
+,Crafts n’ Things,2684,2015-06-10
+,Creating Keepsakes,1641,2004-07-19
+,Cricket (Kids),2406,2009-11-12
+,Crochet Today,2793,2011-06-06
+,Cycle World,2133,2006-02-20
+,Daisy,2456,2015-01-10
+,Dance Magazine,1763,2003-10-12
+,Dialogue,2730,2011-05-14
+,Dig (Kids),2988,2013-05-01
+,Discover,2749,2008-01-25
+,Discovery Girls (Kids),1855,2015-07-17
+,Disney Princess (Kids),2938,2002-11-14
+,Dwell,3282,2003-06-17
+,Eating Well,1705,2011-10-25
+,Ebony,1565,2004-12-21
+,Economist,3182,2010-05-02
+,Elle,2629,2003-08-13
+,Ensign,1693,2012-12-02
+,Entertainment Weekly,3000,2004-02-10
+,Entrepreneur,2929,2005-04-06
+,ESPN The Magazine,2610,2014-12-02
+,Esquire,3193,2007-08-14
+,Essence,3329,2004-08-06
+,Every Day with Rachael Ray,3046,2014-12-21
+,Everyday Food,3450,2004-11-07
+,Faces (Kids),2025,2003-08-01
+,Family Chronicle,1975,2013-06-17
+,Family Circle,3309,2011-12-14
+,Family Fun,1913,2005-11-16
+,Family Handyman,1826,2009-03-13
+,FamilyFun,3222,2007-12-16
+,Field & Stream,2355,2005-08-11
+,Field and Stream,1927,2007-02-07
+,Fine Cooking,1932,2006-08-12
+,Fine Gardening,2324,2015-05-10
+,Fine Homebuilding,3500,2002-11-11
+,Fine Woodworking,3179,2013-01-01
+,First,2843,2004-01-23
+,Fitness,2049,2005-03-19
+,Flying,1741,2006-11-21
+,Fons and Porter’s For the Love of Quilting,2475,2007-08-18
+,Food & Family (Kraft Foods),2124,2004-12-15
+,Food & Wine,1979,2002-03-03
+,Food Network Magazine,3076,2013-08-18
+,Forbes,3339,2005-09-09
+,Fortune,1749,2011-01-07
+,Friend (Kids),1899,2008-07-22
+,Futurist,1549,2015-07-16
+,Game Informer (Teen),1501,2010-08-12
+,Garden Gate,2978,2005-10-04
+,Girls’ Life (Teen),3098,2014-11-07
+,Glamour,2853,2011-07-08
+,Golf Digest,2847,2003-08-14
+,Golf Magazine,1945,2014-10-17
+,Good Housekeeping,3001,2007-10-23
+,GQ,2595,2012-05-16
+,Guideposts,3416,2006-12-13
+,Harper’s Bazaar,2726,2017-02-19
+,Harper’s Magazine,2183,2015-07-18
+,Health,2035,2005-04-05
+,HGTV Magazine,2881,2013-10-06
+,Highlights for Children (Kids),1524,2017-12-03
+,Highlights High Five (Kids),2771,2007-02-07
+,Home Education,2156,2010-01-23
+,House Beautiful,1829,2014-08-03
+,Inc.,3223,2012-09-04
+,Instructor,3156,2017-02-06
+,InStyle,1631,2006-02-17
+,Irreantum,1658,2017-06-22
+,Jack and Jill (Kids),2464,2016-12-22
+,JAMA – Journal of the American Medical Association,2422,2003-12-23
+,Journal of Mormon History (Older issues in Special Collections),2847,2005-11-11
+,Journal of the Book of Mormon and Other Restoration Scripture,3496,2011-11-21
+,Just CrossStitch,2323,2006-05-19
+,Kids Discover (Kids),2682,2013-05-12
+,Kiki (Kids),2778,2004-01-04
+,Kiplinger Letter,2628,2006-07-10
+,Kiplinger’s Personal Finance,3378,2002-09-15
+,Ladies’ Home Journal,2797,2005-08-14
+,Ladybug (Kids),1788,2009-01-09
+,Latina (Spanish),3119,2014-01-02
+,LDS Living,2872,2017-12-23
+,Leading Edge,2779,2013-03-12
+,Liahona (Spanish),3198,2003-01-23
+,Locus,1848,2005-10-21
+,Lucky,2618,2006-12-06
+,Macworld,1604,2017-04-25
+,Mad (Teen),3433,2002-09-06
+,Marie Claire,1537,2016-05-03
+,Martha Stewart Living,3318,2007-04-15
+,Martha Stewart Weddings,2298,2007-04-08
+,Maxim,3103,2008-04-10
+,Mayo Clinic Health Letter,3326,2016-03-18
+,Men’s Health,2534,2004-09-09
+,Mental Floss,2211,2015-04-23
+,Midwest Living,3151,2013-07-18
+,Money,2493,2002-08-10
+,More,3306,2011-06-13
+,Mormon History Association Newsletter,1729,2008-04-02
+,Mormon Studies Review,1936,2002-01-06
+,Mother Earth News,2521,2015-06-12
+,Motor Trend,3157,2012-08-10
+,Muse (Kids),1984,2015-01-17
+,Muy Interesante (Spanish),2560,2015-01-18
+,NADA Classic Collectible Exotic and Muscle Car Appraisal Guide & Directory(Reference),2080,2017-02-23
+,NADA Motorcycle Snowmobile ATV Personal Watercraft Appraisal Guide (Reference),2124,2006-01-19
+,NADA Official Older Used Car Guide (Reference),2544,2011-08-02
+,NADA Official Used Car Guide (Reference),1504,2002-03-11
+,NADA Recreation Vehicle Appraisal Guide (Reference),1994,2012-02-05
+,National Geographic,3164,2006-07-13
+,National Geographic Kids (Kids),2806,2007-08-21
+,National Geographic Traveler,2690,2017-06-07
+,National Parks,2667,2006-07-12
+,National Review,3425,2009-09-24
+,National Wildlife,1889,2014-06-15
+,Natural Health,2695,2011-03-10
+,Natural History,3431,2017-10-24
+,Natural Home,1865,2005-03-12
+,New Car Cost Guide,3099,2012-01-18
+,New Era (Teen and Adult),3218,2012-01-06
+,New York Times Magazine,2646,2011-01-01
+,New Yorker,3355,2017-07-16
+,Newsweek,3010,2015-01-11
+,Nursing,2606,2017-02-13
+,O: The Oprah Magazine,3244,2003-10-17
+,Odyssey (Kids),2782,2004-03-18
+,Old-House Journal,1846,2011-09-01
+,Organic Gardening,2002,2010-11-25
+,Outdoor Life,3083,2010-04-06
+,Outdoor Photographer,2926,2009-10-09
+,Outside,2501,2016-07-02
+,Paper Crafts,2830,2010-11-02
+,Parenting,2845,2005-12-20
+,Parents,2335,2016-11-25
+,PC World,3344,2015-04-03
+,People,2818,2009-08-08
+,People en Español (Spanish),2218,2009-05-22
+,People StyleWatch,2017,2015-06-11
+,Petersen’s 4 Wheel and Off Road,1784,2010-03-11
+,Pillsbury Classic Cookbooks,3180,2014-09-09
+,Pioneer (Older issues in Special Collections),2838,2005-12-23
+,Playboy,3317,2005-03-11
+,Poder Hispanic (Spanish),3293,2005-07-18
+,Popular Mechanics,2967,2012-10-14
+,Popular Photography,1837,2010-10-12
+,Popular Science,3371,2007-01-09
+,Preschool Friends (Kids),2824,2015-07-09
+,Prevention,3141,2011-07-19
+,Provo Orem Word,2126,2017-12-02
+,Psychology Today,2490,2009-10-02
+,Quilter’s Newsletter,2912,2014-04-16
+,Ranger Rick (Kids),3007,2016-05-01
+,Reader’s Digest,1891,2017-06-09
+,Real Simple,2495,2005-06-01
+,Redbook,3011,2002-04-03
+,Reminisce,2869,2011-12-01
+,Reunions,2861,2009-06-04
+,Road and Track,1681,2008-11-23
+,Rock and Ice,2694,2003-03-14
+,Rolling Stone,2312,2013-08-25
+,Romantic Times,1500,2004-01-01
+,Runner’s World,1860,2012-09-14
+,Salt Lake City Magazine,2785,2007-01-09
+,Science,3199,2016-10-10
+,Science News,2420,2013-07-09
+,Scientific American,1738,2006-05-22
+,Scouting,1824,2005-10-10
+,Self,3220,2005-01-22
+,Seventeen (Teen),1951,2016-11-17
+,Shape,2207,2006-11-07
+,Sheet Music Magazine,2868,2008-11-20
+,Ski,3356,2014-03-01
+,Sky and Telescope,2414,2008-08-20
+,Smart Computing,3131,2015-07-06
+,Smithsonian,2853,2017-06-16
+,Snowboarder (Teen),3050,2012-09-24
+,Sound and Vision,3239,2010-07-16
+,Southern Living,2571,2005-03-06
+,Spider (Kids),2763,2002-05-23
+,Sports Illustrated,2064,2012-05-13
+,Sports Illustrated for Kids (Kids),2217,2002-08-22
+,Star,2476,2014-01-07
+,Star Wars Clone Wars (Kids),2248,2003-04-14
+,Studies in the Bible and Antiquity,1970,2010-02-14
+,Sunset,1629,2016-05-12
+,Sunstone,3377,2009-06-06
+,Taste of Home,1616,2007-07-01
+,Taste of Home’s Simple and Delicious,2049,2010-06-13
+,Teen Vogue (Teen),2327,2017-10-17
+,Tennis,1635,2009-11-24
+,The American Legion Magazine,1895,2010-12-12
+,The Economist,2166,2008-08-18
+,The Family Handyman,2153,2013-06-03
+,The New Yorker,1861,2004-10-19
+,This Old House,2257,2012-11-10
+,Thomas and Friends (Kids),3350,2012-05-08
+,Threads,3093,2010-10-06
+,Time,2420,2014-02-23
+,Town and Country,1781,2003-11-03
+,Traditional Home,3191,2009-02-05
+,Trailer Life,2890,2012-11-08
+,Transworld Skateboarding (Teen),2447,2005-02-01
+,Travel + Leisure,2746,2014-11-04
+,TV Guide,2858,2007-09-02
+,Us Weekly,2661,2013-02-14
+,Utah Business,2624,2014-09-13
+,Utah Economic and Business Review,1931,2012-05-16
+,Utah Historical Quarterly,2985,2004-12-19
+,Utah Valley Business Q,2982,2006-11-12
+,Utah Valley Magazine,3215,2016-10-12
+,Utah Voter,2001,2016-06-04
+,Utne Reader,2394,2010-09-25
+,UVU Magazine,1619,2005-02-10
+,Value Line Investment Survey (Reference),3160,2004-11-15
+,Vanidades (Spanish),3308,2011-12-21
+,Vanity Fair,3479,2006-08-06
+,Vegetarian Times,2683,2011-01-06
+,VFW Magazine,2131,2014-03-03
+,Vogue,1991,2009-05-13
+,Weight Watchers,3314,2002-05-04
+,Western Horseman,2838,2016-05-06
+,Whole Living,2141,2015-06-22
+,Wild Animal Baby (Kids’ Small Picture Book),2087,2015-07-20
+,Wildlife Review (Special Collections),1728,2016-08-19
+,Wired,1546,2003-07-14
+,Woman’s Day,2801,2008-02-23
+,Woman’s World,1862,2013-11-09
+,Women’s Health,2227,2002-07-21
+,Working Mother,1657,2007-11-16
+,Writer’s Digest,3238,2002-10-05
+,Yoga Journal,3381,2005-05-10
+,Young Rider (Kids),2218,2015-10-14
+,Zoobooks (Kids),2619,2017-09-04
+,The Believer,2020,2011-04-10
+,Collier's,2429,2013-09-13
+,Coronet,1518,2003-03-21
+,Good,3231,2008-12-09
+,Harper's Magazine,1660,2012-01-16
+,Interview,1633,2015-07-09
+,Latterly,1708,2015-05-24
+,The Liberator Magazine,1524,2017-02-13
+,Life,3401,2013-02-22
+,McClure's,2474,2015-12-08
+,McSweeney's,3128,2012-10-21
+,National Geographic,2178,2003-06-20
+,The New York Review of Books,3359,2012-03-12
+,The New Yorker,3072,2005-12-25
+,Nuestro,2013,2008-05-05
+,People,3356,2017-12-09
+,Print,3433,2011-11-02
+,Reader's Digest,3431,2013-09-18
+,The Saturday Evening Post,1803,2011-06-09
+,Smithsonian,3063,2014-11-12
+,Vanity Fair,1894,2012-01-18
+,Airliners,3375,2016-07-22
+,Autograph Collector Magazine,1739,2011-11-09
+,Backpacker,2611,2006-11-01
+,Birds & Blooms,2144,2009-05-19
+,Card Player,1968,2017-03-23
+,Cigar Aficionado,1686,2012-08-25
+,Kitelife,2568,2009-08-11
+,Lapidary Journal Jewelry Artist,3428,2016-09-11
+,Make Magazine,1742,2004-04-18
+,Model Aviation,2957,2008-01-17
+,Model Railroader,1544,2012-02-25
+,Numismatist,2089,2017-03-16
+,Railroad Model Craftsman ,2897,2007-08-10
+,Scrye,3445,2002-11-03
+,Sports Collectors Digest,3289,2005-07-16
+,Strictly Slots,2812,2011-04-17
+,Tall Timber Short Lines,2754,2003-05-15
+,ToyFare,3063,2004-05-13
+,Trains,1731,2011-08-01
+,Wizard,3330,2009-11-25
+,Cigar Aficionado,2969,2014-01-24
+,Domino,1618,2012-10-15
+,Ebony,1529,2003-09-18
+,Essence,2065,2010-01-07
+,Hello Mr.,3045,2016-01-16
+,Inked,2666,2016-08-15
+,Jet,1636,2005-10-25
+,Lucky,2360,2005-01-01
+,Martha Stewart Living,3258,2012-10-13
+,O: The Oprah Magazine,1817,2011-04-02
+,Paper,3468,2011-01-16
+,Real Simple,2870,2016-12-08
+,Reunions magazine,2691,2007-03-25
+,Robb Report,3471,2004-02-22
+,Southern Living,2867,2002-04-20
+,Sunset,3022,2009-02-11
+,Swindle,1834,2010-03-25
+,Two Mundos Magazine,2239,2014-09-18
+,Y'all,1654,2008-04-20
+,CCM Magazine,1791,2016-05-02
+,Decibel,3323,2010-12-15
+,Dirty Linen,2352,2005-12-13
+,Down Beat,2694,2002-06-03
+,Drum!,2671,2007-03-04
+,The Fader,3070,2009-08-25
+,Filter,2095,2004-12-22
+,Flux,2196,2008-10-04
+,Global Rhythm,1884,2009-12-24
+,Goldmine,2789,2013-07-24
+,Guitar Player,3335,2002-01-07
+,Guitar World,1905,2012-01-12
+,HM,2217,2002-03-19
+,Keyboard,3261,2010-08-24
+,Living Blues,2671,2016-12-01
+,Maximum RocknRoll,3434,2011-12-02
+,Modern Drummer,1879,2011-08-10
+,Paste,2019,2015-06-11
+,Pulse!,3250,2004-01-04
+,Punk Planet,3187,2002-01-16
+,Revolver,3332,2016-12-24
+,Rolling Stone,2651,2004-07-18
+,Sentimentalist Magazine,2561,2011-06-20
+,Sing Out!,1703,2017-03-03
+,The Source,3368,2015-02-03
+,Spin,2583,2010-10-09
+,Latin Mass Magazine,2315,2004-12-24
+,Liahona,2685,2004-06-01
+,Liberty,1984,2004-04-11
+,The Living Church,2670,2009-08-24
+,The New Era,3485,2014-03-21
+,Rays from the Rose Cross,1820,2008-12-04
+,St. Anthony Messenger,2000,2004-12-15
+,Signs of the Times,1644,2016-11-17
+,Sojourners,3043,2008-08-04
+,Tikkun,1603,2012-09-01
+,Tricycle: The Buddhist Review,2654,2017-12-25
+,The Watchtower,1728,2008-08-19
+,Popular Mechanics,2691,2007-08-16
+,Popular Science,3382,2012-10-13
+,Quanta Magazine,2082,2017-07-12
+,Science News,3483,2015-06-06
+,Scientific American,1509,2005-06-19
+,Scientific American Mind,1949,2016-08-20
+,The Scientist,2179,2011-05-03
+,Seed,2730,2008-01-02
+,Skeptic,2985,2009-05-05
+,Skeptical Inquirer,2987,2005-04-04
+,Sky & Telescope,1955,2011-09-22
+,Weatherwise,3264,2010-07-06
+,American Scientist,2331,2005-02-19
+,Archaeology,2870,2002-06-09
+,Astronomy,2135,2012-10-16
+,Chemical & Engineering News,2824,2009-07-20
+,Discover,2034,2009-08-06
+,Infinite Energy,2361,2002-08-10
+,Amazing Stories,2075,2009-10-10
+,Analog Science Fiction and Fact,2453,2016-04-06
+,Apex Digest,3231,2003-03-11
+,Asimov's Science Fiction,2176,2011-06-05
+,Astounding Magazine,3267,2011-02-07
+,Doctor Who Magazine,1828,2006-11-11
+,Fantasy and Science Fiction,2493,2012-02-21
+,Galaxy Science Fiction,2575,2011-04-02
+,Heavy Metal,2176,2009-06-09
+,If,2216,2007-08-22
+,Imagination,1779,2012-08-04
+,Oceans of the Mind,2103,2014-08-12
+,Seed,2362,2011-03-12
+,Space Science Fiction,2633,2007-02-10
+,Star Trek: The Magazine,2164,2011-03-19
+,Star Wars Insider,2593,2017-12-08
+,Athlon Sports,2615,2012-11-23
+,Baseball Digest,2049,2013-11-25
+,Bicycling,2554,2011-12-13
+,Dime Magazine,2382,2003-04-02
+,ESPN The Magazine,2832,2003-10-03
+,Field & Stream,2660,2004-11-16
+,Frequency: The Snowboarder's Journal,2461,2003-07-20
+,Golf Digest,2789,2016-02-04
+,Golf Magazine,1714,2016-01-13
+,Inside Sports,2815,2016-04-08
+,KO Magazine,3003,2014-08-20
+,Lindy's Sports,3286,2015-12-17
+,Pro Football Weekly,2408,2006-03-05
+,Pro Wrestling Illustrated,2392,2010-12-13
+,The Ring,1515,2007-12-07
+,Runner's World,2649,2010-11-10
+,SLAM Magazine,2680,2002-05-25
+,Snowboard Magazine,2876,2011-02-06
+,Soccer America,1928,2002-09-12
+,Sport,2364,2015-05-25
+,Sporting News,3222,2012-10-06
+,Sports Illustrated,2362,2008-08-16
+,Tae Kwon Do Times,1832,2005-10-10
+,Tennis,2546,2013-03-07
+,2600: The Hacker Quarterly,1542,2016-10-25
+,Antic,2293,2006-06-09
+,Byte,3026,2015-11-13
+,Dr. Dobb's Journal,2869,2010-07-08
+,Kilobaud Microcomputing,1521,2015-06-19
+,Linux Journal,3043,2011-12-02
+,Linux Magazine,3227,2005-08-22
+,MacAddict,3310,2002-06-23
+,Macworld,1964,2007-05-04
+,Maximum PC,3374,2015-04-19
+,MIT Technology Review,2130,2004-04-09
+,CIOReview,1602,2002-07-20
+,Modern Electrics,1713,2007-09-23
+,Nuts and Volts,1934,2004-04-11
+,PC Gamer,1930,2015-01-18
+,PC Magazine,3281,2008-10-24
+,PCWorld,1695,2003-06-07
+,RUN,2573,2002-03-23
+,SERVO Magazine,3459,2002-07-04
+,Wired,2655,2017-08-06
+,Official Xbox Magazine,3444,2011-06-24
+,PC Gamer,2581,2003-11-22
+,PlayStation: The Official Magazine,3037,2015-12-11
+,Game Informer,1784,2006-06-06
+,GameFan,1797,2010-06-07
+,Nintendo Force,2830,2006-02-10
+,321 Contact,3398,2012-03-23
+,AARP Modern Maturity,2238,2015-02-09
+,AARP: The Magazine,2811,2010-11-09
+,ABA Bank Marketing,2481,2015-04-20
+,ABA Bank Marketing & Sales,2391,2017-10-07
+,Accent on Living,1991,2017-04-15
+,Acquisitions Librarian,2466,2016-05-20
+,Across the Board,2446,2004-06-04
+,Activities Adaptation & Aging,1761,2005-11-23
+,Ad Age Global,1572,2009-06-11
+,Ad Astra,2598,2017-11-10
+,Adapted Physical Activity Quarterly,2197,2010-11-04
+,Addiction & Recovery,3327,2017-07-03
+,Addiction Letter,1932,2003-06-17
+,Administration in Social Work,2839,2003-11-05
+,Adolescence,2415,2005-09-21
+,Adoption Quarterly,2445,2003-10-18
+,Adult Basic Education,1860,2015-02-06
+,Astronomy,1852,2009-11-14
+,Atlanta,1689,2012-07-01
+,Atlantic,3395,2009-06-06
+,Australian Macuser,2455,2009-09-08
+,Australian MacWorld,2967,2005-04-07
+,Australian Natural History,1693,2011-01-07
+,Australian Nursing & Midwifery Journal,2699,2014-07-08
+,Australian Nursing Journal,3147,2017-12-14
+,Australian Parents,3477,2008-10-09
+,Australian Personal Computer,3196,2012-11-17
+,Australian Quarterly,1806,2007-08-18
+,Australian Science Teachers Journal,3469,2003-05-20
+,Australian Senior,1543,2011-03-11
+,Mathematics Journal,2079,2002-11-01
+,Australian WellBeing,2401,2009-06-08
+,Chinese Education & Society,2548,2017-04-15
+,Choice,2915,2008-12-07
+,Choices: The Magazine of Food Farm & Resource Issues,1539,2004-09-04
+,Choir & Organ,2825,2005-12-06
+,Christian Century,2204,2010-11-12
+,Christian History,1960,2002-10-04
+,Christian History & Biography,2239,2013-08-25
+,Christianity Today,1997,2009-07-11
+,Chronicle for Driver,2763,2004-03-23
+,Education Professionals,3380,2009-03-04
+,Chronicle of Philanthropy,1735,2013-07-15
+,Chronicle of the American Driver &,2582,2015-08-04
+,Traffic Safety Education,3004,2016-03-05
+,Association,3156,2003-09-16
+,Church & State,2447,2009-04-24
+,Far Eastern Affairs,1730,2002-12-25
+,Far Eastern Economic Review,1605,2017-08-23
+,Farm Industry News,3274,2016-09-02
+,NetGuide,3200,2006-02-05
+,Network Computing,3193,2013-04-24
+,Network Magazine,2525,2007-07-06
